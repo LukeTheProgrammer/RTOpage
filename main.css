@@ -1,0 +1,412 @@
+/*-------------Reset.css--------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------Real CSS------*/
+@font-face {
+	font-family: 'sansation';
+	src: url("fonts/sansation_regular-webfot.eot");
+	src: url("fonts/sansation_regular-webfont.eot?#iefix") format('embedded-opentype'),
+	     url("fonts/sansation_regular-webfont.woff") format('woff'),
+	     url("fonts/sansation_regular-webfont.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'sansation';
+	src: url("fonts/sansation_bold-webfont.eot");
+	src: url("fonts/sansation_bold-webfont.eot?#iefix") format('embedded-opentype'),
+	     url("fonts/sansation_bold-webfont.woff") format('woff'),
+	     url("fonts/sansation_bold-webfont.ttf") format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Venera';
+	src: url("fonts/Venera-100.otf");
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Venera-300';
+	src: url("fonts/Venera-300.otf");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Venera-500';
+	src: url("fonts/Venera-500.otf");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Venera-700';
+	src: url("fonts/Venera-700.otf");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Venera-900';
+	src: url("fonts/Venera-900.otf");
+	font-weight: 900;
+	font-style: normal;
+}
+body {
+	background-color: hsla(228, 9%, 78%, 1.0);
+	font-family: 'Venera-500', 'sansation', arial, sans-serif;
+}
+a {
+	text-decoration: none;
+}	
+p {
+	font-family: 'sansation';
+}
+#outerContainer {
+	width: 1280px;
+	margin: 0 auto;
+	background-color: white;
+}
+#header {
+	background-color: hsla(195, 100%, 19%, 1.0);
+	width: 100%;
+	height: 165px;
+}
+#loginButton {
+	color: hsla(85, 49%, 56%, 1.0);
+	float: right;
+	font-size: 9px;
+	margin-top: 5px;
+	margin-right: 130px;
+}
+#mainLogo {
+	float: left;
+	margin-top: 30px;
+	margin-left: 130px;
+}
+#slogan {
+	font-family: 'Venera-700';
+	font-size: 24px;
+	padding-top: 50px;
+	text-align: center;
+	color: hsla(195, 71%, 27%, 1.0);
+	width: 950px;
+}
+nav {
+	background-color: hsla(195, 100%, 43%, 1.0);
+	text-align: center;
+}
+#topNav {
+	list-style: none;
+	padding: 10px;
+	margin: 60px 0 0 0;
+}
+#topNav li {
+	display: inline;
+}
+#topNav li a {
+	padding: 10px 20px;
+	font-size: 12px;
+	color: white;
+}
+#topNav li a:hover {
+
+}
+#topNav li a:visited {
+	color: hsla(195, 100%, 19%, 1.0);
+}
+#innerContainer {
+	width: 1020px;
+	margin: 0 auto;
+}
+#pageTree {
+	font-family: 'sansation';
+	font-size: 10px;
+	padding: 20px 0 10px 0;
+}
+#pageTree a {
+	color: hsla(228, 9%, 78%, 1.0);	
+}
+#pageTree a:last-child {
+	color: hsla(195, 100%, 43%, 1.0);
+}
+#pictures {
+	width: 100%;
+	height: 250px;
+	background-color: hsla(90, 3%, 76%, 1.0);
+	padding-top: 35px;
+	margin: 30px 0;
+}
+#captions {
+	width: 500px;
+	background-color: #98c659;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	border-right: 10px solid hsla(195, 100%, 19%, 1.0);
+	margin: auto 40px auto auto;
+	border-radius: 1px;
+}
+h1 {
+	font-family: 'Venera-900';
+	padding-top: 25px;
+	color: hsla(35, 94%, 52%, 1.0);
+	font-size: 24px;
+}
+.bodyText {
+	padding: 20px 0;
+	line-height: 2em;
+}
+h2 {
+	font-family: 'Venera-700';
+	padding: 0;
+	color: hsla(84, 50%, 55%, 1.0);
+	font-size: 18px;
+}
+.inTextUl {
+	background-color: hsla(195, 100%, 19%, 1.0);
+	padding: 20px 0 20px 45px;
+	list-style-type: initial;
+}
+.inTextUl li {
+	color: white;
+	font-family: 'sansation';
+	padding: 7px;
+}
+h3 {
+	font-family: 'Venera-700';
+	font-size: 18px;
+	color: hsla(35, 94%, 52%, 1.0);
+}
+#footer {
+	background-color: hsla(195, 100%, 19%, 1.0);
+	height: 400px;
+	margin-top: 120px;
+	padding-top: 260px;
+	position: relative;
+}
+#contactBox {
+	background-color: hsla(84, 50%, 55%, 1.0);
+	position: absolute;
+	top: -50px;
+	left: 130px;
+	width: 1020px;
+	height: 310px;
+	padding: 0;
+}
+#contactText {
+	width: 220px;
+	height: 240px;
+	display: inline-block;
+	padding: 15px;
+	float: left;
+	font-weight: bold;
+}
+#contactText p {
+	font-size: 20px;
+	color: hsla(195, 100%, 19%, 1.0);
+	line-height: 35px;
+}
+.blue {
+	color: hsla(195, 100%, 19%, 1.0);
+	margin-bottom: 20px;
+	font-family: 'Venera-500';
+}
+.white {
+	color: white;
+}
+#contactAddress {
+	width: 165px;
+	display: inline-block;
+	padding: 20px 0;
+}
+#contactAddress p {
+	font-family: 'sansation'
+	font-weight: bold;
+	font-size: 14px;
+	color: hsla(195, 100%, 19%, 1.0);
+	padding: 5px;
+}
+.socialLinks {
+	padding: 5px;
+	margin-top: 20px;
+}
+#contactForm {
+	width: 550px;
+	height: 250px;
+	display: inline-block;
+	padding: 10px;
+	float: right;
+}
+#contactForm input {
+	width: 240px;
+	padding: 10px;
+	margin: 5px;
+	background-color: hsla(76, 58%, 70%, 1.0);
+	color: hsla(195, 100%, 19%, 1.0);
+	border: none;
+}
+#contactForm input::-webkit-input-placeholder { /* WebKit browsers */
+	color: hsla(195, 100%, 19%, 1.0);
+	font-family: 'sansation';
+}
+#contactForm input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: hsla(195, 100%, 19%, 1.0);
+	font-family: 'sansation';
+}
+#contactForm input::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: hsla(195, 100%, 19%, 1.0);
+	font-family: 'sansation';
+}
+#contactForm input:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color: hsla(195, 100%, 19%, 1.0);
+	font-family: 'sansation';
+}
+#contactForm textarea {
+	padding: 10px;
+	margin: 5px;
+	width: 510px;
+	height: 100px;
+	border: none;
+	background-color: hsla(76, 58%, 70%, 1.0);
+	color: hsla(195, 100%, 19%, 1.0);
+}
+#contactForm textarea::-webkit-input-placeholder { /* WebKit browsers */
+	color: hsla(195, 100%, 19%, 1.0);
+	font-family: 'sansation';
+}
+#contactForm textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: hsla(195, 100%, 19%, 1.0);
+	font-family: 'sansation';
+}
+#contactForm textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: hsla(195, 100%, 19%, 1.0);
+	font-family: 'sansation';
+}
+#contactForm textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color: hsla(195, 100%, 19%, 1.0);
+	font-family: 'sansation';
+}
+#contactForm button {
+	width: 530px;
+	padding: 10px 0;
+	margin: 5px;
+	color: hsla(84, 50%, 55%, 1.0);
+	background-color: hsla(195, 100%, 19%, 1.0);
+	border: none;
+	font-family: 'Venera-700';
+	font-size: 22px;
+	cursor: pointer;
+}
+#footerText {
+	width: 320px;
+	float: left;
+	margin-left: 130px;
+}
+#RTOfooterLogo {
+	height: 65px;
+	margin: 40px 0 10px 0;
+}
+#footerText p {
+	font-family: 'sansation';
+	font-size: 10px;
+	color: gray;
+	padding: 10px 0;
+	line-height: 20px;
+}
+#ziles {
+	background-color: black;
+	color: white;
+	margin-top: 20px;
+}
+#footerLinks {
+	width: 650px;
+	font-size: 10px;
+	color: white;
+	margin-top: 30px;
+	float: right;
+	margin-right: 130px;
+}
+#footerLinks ul {
+	list-style: none;
+	font-size: 13px;
+	margin: 20px 0;
+}
+#footerLinks ul li {
+	display: inline;
+}
+#footerLinks ul li a {
+	padding: 0 30px;
+	color: white;
+	font-family: 'sansation';
+}
+#footerLinks ul li a:first-child {
+	padding-left: 0;
+}
+#footerLinks table {
+	width: 650px;
+	height: 170px;
+	float: right;
+}
+#footerLinks table tr th a {
+	float: left;
+	color: hsla(35, 94%, 52%, 1.0);
+	font-size: 14px;
+	margin: 5px 3px 5px 0;
+}
+#footerLinks table tr td a {
+	color: white;
+	font-family: 'sansation';
+	font-size: 13px;
+	margin: 3px 0;
+}
+
+
+
+
